@@ -15,6 +15,6 @@ public Job()
 
 public void DisplayJobInfo()
 {
-    Console.WriteLine($"{JobTitle} ({Company})");
+    Console.WriteLine($"{JobTitle} ({Company}) {StartYear}-{EndYear}");
 }
 }
