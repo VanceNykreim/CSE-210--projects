@@ -1,17 +1,9 @@
-class Entry 
-{
-    public Entry () {
-    }
+public class Entry {
+    public string EntryDate {get; set;}
 
-    public static void NewEntry() {
-        //show user random prompt from list
-                Console.WriteLine("hello!");
-        //save response, prompt, and date to current journal
+    public string Prompt {get; set;}
 
-    }
+    public string Response {get; set;}
 
-    public static void DisplayJournal() {
-        //display every entry in the current journal to the screen
-                Console.WriteLine("hello!");
-    }
+    private string _secret;
 }

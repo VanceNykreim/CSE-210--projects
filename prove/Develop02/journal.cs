@@ -1,16 +1,12 @@
-class Journal {
+public class Journal {
 
-    public Journal () {
-
+    public Journal ()
+    {
+        Entries = new List<Entry>();
     }
+    public string JournalName {get; set;}
 
-    public static void SaveJournal() {
-        //prompt user for filename 
-        //save current journal to a csv (to that file path)
-    }
+    public List<Entry> Entries {get; set;}
 
-    public static void LoadJournal() {
-        //prompt user for filename (has to already exist) (check for that)
-        //load that file as the journal (and replace current csv file)
-    }
+
 }
