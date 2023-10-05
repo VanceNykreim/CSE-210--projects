@@ -6,13 +6,13 @@ class Program
     {
         List<string> prompts = new List<string>();
 
-        prompts.add("What was the most interesting part of my day?");
-        prompts.add("What was the least interesting part of my day?");
-        prompts.add("What was the most happy part of my day?");
-        prompts.add("What was the most sad part of my day?");
-        prompts.add("What happened at work/home today?");
-        prompts.add("How did you make your spouse/friend/family member happy today?");
-        prompts.add("What was the most interesting part of my day?");
+        prompts.Add("What was the most interesting part of my day?");
+        prompts.Add("What was the least interesting part of my day?");
+        prompts.Add("What was the most happy part of my day?");
+        prompts.Add("What was the most sad part of my day?");
+        prompts.Add("What happened at work/home today?");
+        prompts.Add("How did you make your spouse/friend/family member happy today?");
+        prompts.Add("What was the most interesting part of my day?");
 
         //if user picks option to add a new entry
         //1. pick a random prompt from list above
@@ -37,13 +37,13 @@ class Program
         int choice = 0;
         while (choice !=5) {
             if (choice == 1) {
-                Entry.NewEntry();
+                Console.WriteLine("Yo Dog");
             }else if (choice == 2) {
-                Entry.DisplayJournal();
+                Console.WriteLine("Yo Dog");
             }else if (choice == 3) {
-                Journal.SaveJournal();
+                Console.WriteLine("Yo Dog");
             }else if (choice == 4) {
-                Journal.LoadJournal();
+                Console.WriteLine("Yo Dog");
             }
             choice = DisplayMenu();
         }
